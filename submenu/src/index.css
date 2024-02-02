@@ -4,6 +4,7 @@
 
 @layer base {
   body {
+      background: #6366f1;
       font-family: 'Open Sans Variable', sans-serif;
   }
 }
