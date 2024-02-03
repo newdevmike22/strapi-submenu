@@ -1,5 +1,6 @@
 import { FaBars } from "react-icons/fa";
 import { useGlobalContext } from "../Context";
+import NavLinks from "./NavLinks";
 
 const Navbar = () => {
     const { openSidebar } = useGlobalContext();
@@ -14,7 +15,7 @@ const Navbar = () => {
                 >
                     <FaBars className="mx-auto" />
                 </button>
-                {/* nav links */}
+                <NavLinks />
             </div>
         </nav>
     )
